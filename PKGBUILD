@@ -4,7 +4,7 @@
 
 pkgname=ame
 _pkgname=amethyst
-pkgver=4.0.1
+pkgver=4.0.2
 pkgrel=1
 _codename='Funky Fish'
 pkgdesc='A fast and efficient AUR helper'
@@ -20,7 +20,7 @@ depends=(
 )
 makedepends=('cargo')
 source=("${_pkgname}-${pkgver}::${url}/archive/v${pkgver}.tar.gz")
-sha256sums=('37c550ad085b1da610f3ec8a0889373e8eaef2800fb60f0411ef5701abe04491')
+sha256sums=('d4174788608c34fe9eb5854b6c21a7b460930d567fe4262e492762a8377f5467')
 
 prepare() {
     cd "${srcdir}/${_pkgname}-${pkgver}"
